@@ -5,7 +5,7 @@ library(httpuv)
 library(jsonlite)
 #https://github.com/hadley/httr/blob/master/demo/oauth2-github.r
 oauth_endpoints("github")
-myapp <- oauth_app("github", key = "881e59e8685123c02530", secret = "d18b0b0e330f4dcc2100d6a659adde5e853f7067")
+myapp <- oauth_app("github", key = "xxxxxxx", secret = "xxxxxxxxxx")
 github_token <- oauth2.0_token(oauth_endpoints("github"), myapp)
 
 gtoken <- config(token = github_token)
