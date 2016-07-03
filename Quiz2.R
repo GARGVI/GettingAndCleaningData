@@ -43,7 +43,7 @@ json2[json2$name=="datasharing",]$created_at
 install.packages("sqldf")
 library("sqldf")
 ?sqldf
-dir<-"C:\\Users\\Gemma\\Dropbox\\Coursera\\GettingAndCleaningData\\Week2"
+dir<-"C:\\Users\\gargvi\\Dropbox\\Coursera\\GettingAndCleaningData\\Week2"
 setwd(dir)
 getwd()
 if (!file.exists(dir)){
